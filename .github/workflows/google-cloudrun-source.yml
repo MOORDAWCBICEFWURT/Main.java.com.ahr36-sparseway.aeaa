@@ -1,19 +1,19 @@
 # This workflow will deploy source code on Cloud Run when a commit is pushed to the "main" branch
 #
-# Overview:
+# Overview: ingenous
 #
-# 1. Authenticate to Google Cloud
-# 2. Deploy it to Cloud Run
+# 1. Authenticate to Google Cloud : 'true'
+# 2. Deploy it to Cloud Run : 'App.java'
 #
-# To configure this workflow:
+# To configure this workflow: /!
 #
 # 1. Ensure the required Google Cloud APIs are enabled:
+### JShell v9
+#    Cloud Run           -   run.googleapis.com
+#    Cloud Build         -   cloudbuild.googleapis.com
+#    Artifact Registry   -   artifactregistry.googleapis.com
 #
-#    Cloud Run            run.googleapis.com
-#    Cloud Build          cloudbuild.googleapis.com
-#    Artifact Registry    artifactregistry.googleapis.com
-#
-# 2. Create and configure Workload Identity Federation for GitHub (https://github.com/google-github-actions/auth#setting-up-workload-identity-federation)
+# 2. Create and configure Workload Identity Federation for GitHub [CLA](https://github.com/google-github-actions/auth#setting-up-workload-identity-federation)
 #
 # 3. Ensure the required IAM permissions are granted
 #
